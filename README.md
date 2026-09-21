@@ -54,10 +54,17 @@ Claude에게 그냥 자연어로 요청하면 적절한 스킬이 자동 실행�
 
 ```
 .claude/skills/
-  ├─ naver-seo-keyword/   # 키워드·검색의도 설계
-  ├─ naver-blog-writer/   # 본문 작성 (+ assets/forbidden-words.txt 금지어 목록)
-  └─ naver-blog-publish/  # 발행 전 점검
-posts/                    # 작성한 글 저장 (YYYY-MM-DD-주제.md)
+  ├─ naver-seo-keyword/      # 키워드·검색의도 설계
+  ├─ naver-blog-writer/      # 본문 작성 (+ assets/forbidden-words.txt 금지어 목록)
+  ├─ naver-blog-publish/     # 발행 전 점검
+  ├─ naver-seo-geo-blog/     # ★ 박관장 전용 본문 (SEO·GEO·홈피드 3중 최적화)
+  ├─ policy-fund-factcheck/  # ★ 정책자금 수치·요건 팩트체크
+  ├─ park-voice-linter/      # ★ 박관장 보이스 규칙 채점·검수
+  ├─ content-calendar/       # ★ 주제 분산 배치(자기복제 차단)
+  └─ naver-image-shotlist/   # ★ 이미지 구도·출처·캡션 설계
+posts/                       # 작성한 글 (YYYY-MM-DD-주제.md)
+  ├─ _variation-log.md       # 골격·어조·제목패턴 변주 기록 (자기복제 차단용)
+  └─ _archive/               # 구 포맷·중복 등 보류된 글
 ```
 
 ## ⚙️ 커스터마이징
