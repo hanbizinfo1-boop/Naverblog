@@ -1,0 +1,37 @@
+{
+  "사진1": {
+    "queries": [
+      "forked path in forest",
+      "two roads diverging",
+      "crossroads nature"
+    ]
+  },
+  "사진2": {
+    "queries": [
+      "store interior renovation",
+      "shop construction interior",
+      "empty retail space renovation"
+    ]
+  },
+  "사진3": {
+    "queries": [
+      "calculator and ledger",
+      "accounting calculator desk",
+      "bookkeeping finance"
+    ]
+  },
+  "사진5": {
+    "queries": [
+      "thoughtful businessman documents",
+      "worried entrepreneur desk",
+      "man thinking paperwork"
+    ]
+  },
+  "사진6": {
+    "queries": [
+      "business consultation meeting",
+      "advisor client discussion",
+      "office meeting two people"
+    ]
+  }
+}

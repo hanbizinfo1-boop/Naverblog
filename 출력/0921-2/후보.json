@@ -1,0 +1,52 @@
+{
+ "사진1": {
+  "portrait": false,
+  "urls": [
+   "https://images.pexels.com/photos/22775934/pexels-photo-22775934.jpeg",
+   "https://images.pexels.com/photos/10124559/pexels-photo-10124559.jpeg",
+   "https://images.pexels.com/photos/9608654/pexels-photo-9608654.jpeg",
+   "https://images.pexels.com/photos/1578750/pexels-photo-1578750.jpeg",
+   "https://images.pexels.com/photos/31747091/pexels-photo-31747091.jpeg"
+  ]
+ },
+ "사진2": {
+  "portrait": false,
+  "urls": [
+   "https://images.pexels.com/photos/3616739/pexels-photo-3616739.jpeg",
+   "https://images.pexels.com/photos/32579238/pexels-photo-32579238.jpeg",
+   "https://images.pexels.com/photos/12340558/pexels-photo-12340558.jpeg",
+   "https://images.pexels.com/photos/7505555/pexels-photo-7505555.jpeg",
+   "https://images.pexels.com/photos/5797/pexels-photo-5797.jpeg",
+   "https://images.pexels.com/photos/27728635/pexels-photo-27728635.jpeg"
+  ]
+ },
+ "사진3": {
+  "portrait": false,
+  "urls": [
+   "https://images.pexels.com/photos/17065743/pexels-photo-17065743.jpeg",
+   "https://images.pexels.com/photos/5921494/pexels-photo-5921494.jpeg",
+   "https://images.pexels.com/photos/33175667/pexels-photo-33175667.jpeg",
+   "https://images.pexels.com/photos/7654131/pexels-photo-7654131.jpeg"
+  ]
+ },
+ "사진5": {
+  "portrait": false,
+  "urls": [
+   "https://images.pexels.com/photos/7534780/pexels-photo-7534780.jpeg",
+   "https://images.pexels.com/photos/819635/pexels-photo-819635.jpeg",
+   "https://images.pexels.com/photos/7792750/pexels-photo-7792750.jpeg",
+   "https://images.pexels.com/photos/7821925/pexels-photo-7821925.jpeg",
+   "https://images.pexels.com/photos/7877117/pexels-photo-7877117.jpeg",
+   "https://images.pexels.com/photos/8730849/pexels-photo-8730849.jpeg"
+  ]
+ },
+ "사진6": {
+  "portrait": false,
+  "urls": [
+   "https://images.pexels.com/photos/20752572/pexels-photo-20752572.jpeg",
+   "https://images.pexels.com/photos/8204963/pexels-photo-8204963.jpeg",
+   "https://images.pexels.com/photos/36765718/pexels-photo-36765718.jpeg",
+   "https://images.pexels.com/photos/6949865/pexels-photo-6949865.jpeg"
+  ]
+ }
+}

@@ -1,0 +1,38 @@
+{
+  "사진1": {
+    "queries": [
+      "invoices and bills",
+      "unpaid invoice paperwork",
+      "billing documents"
+    ]
+  },
+  "사진2": {
+    "queries": [
+      "warehouse stacked boxes",
+      "storage room cardboard boxes",
+      "delivery boxes shop"
+    ]
+  },
+  "사진3": {
+    "queries": [
+      "filing documents into folder",
+      "organizing files hands",
+      "document folder desk"
+    ],
+    "portrait": true
+  },
+  "사진4": {
+    "queries": [
+      "envelope and letter mail",
+      "posting envelope",
+      "mail envelope hands"
+    ]
+  },
+  "사진5": {
+    "queries": [
+      "checking smartphone banking",
+      "mobile phone finance app",
+      "smartphone screen hands"
+    ]
+  }
+}

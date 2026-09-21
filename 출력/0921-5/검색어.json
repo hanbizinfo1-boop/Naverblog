@@ -1,0 +1,37 @@
+{
+  "사진1": {
+    "queries": [
+      "reading official letter",
+      "hands holding letter document",
+      "notice letter"
+    ]
+  },
+  "사진2": {
+    "queries": [
+      "closed shop shutter",
+      "shuttered storefront",
+      "closed store entrance"
+    ]
+  },
+  "사진3": {
+    "queries": [
+      "bank statement document",
+      "reading financial statement",
+      "finger pointing document"
+    ]
+  },
+  "사진4": {
+    "queries": [
+      "sorting receipts",
+      "receipts and documents",
+      "organizing receipts folder"
+    ]
+  },
+  "사진5": {
+    "queries": [
+      "office meeting reviewing documents",
+      "colleagues discussing paperwork",
+      "business review desk"
+    ]
+  }
+}

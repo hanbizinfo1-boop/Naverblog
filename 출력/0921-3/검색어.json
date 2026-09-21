@@ -1,0 +1,37 @@
+{
+  "사진1": {
+    "queries": [
+      "consultation meeting discussion",
+      "two people talking office",
+      "client advisor conversation"
+    ]
+  },
+  "사진2": {
+    "queries": [
+      "writing in notebook",
+      "handwritten notes pen",
+      "notepad list writing"
+    ]
+  },
+  "사진3": {
+    "queries": [
+      "business plan documents desk",
+      "paperwork and pen desk",
+      "planning documents"
+    ]
+  },
+  "사진4": {
+    "queries": [
+      "calculator financial statement",
+      "finance documents calculator",
+      "accounting paperwork"
+    ]
+  },
+  "사진5": {
+    "queries": [
+      "handing over documents",
+      "giving papers hands",
+      "document exchange hands"
+    ]
+  }
+}

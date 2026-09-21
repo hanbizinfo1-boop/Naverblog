@@ -1,0 +1,58 @@
+{
+  "사진1": {
+    "queries": [
+      "stressed businessman paperwork",
+      "pile of documents desk",
+      "overwhelmed office work"
+    ]
+  },
+  "사진2": {
+    "queries": [
+      "laptop and documents on desk",
+      "organizing paperwork desk",
+      "office desk work"
+    ]
+  },
+  "사진3": {
+    "queries": [
+      "computer monitor office desk",
+      "desktop screen workplace",
+      "office computer"
+    ]
+  },
+  "사진4": {
+    "queries": [
+      "official document close up",
+      "paper document stamp",
+      "contract paper"
+    ]
+  },
+  "사진5": {
+    "queries": [
+      "credit card payment terminal",
+      "card reader shop counter",
+      "point of sale terminal"
+    ]
+  },
+  "사진6": {
+    "queries": [
+      "comparing two documents hands",
+      "reviewing papers hands",
+      "checking documents"
+    ]
+  },
+  "사진7": {
+    "queries": [
+      "file binders shelf office",
+      "document folders archive",
+      "office filing"
+    ]
+  },
+  "사진8": {
+    "queries": [
+      "business meeting documents table",
+      "consultant client meeting",
+      "two people reviewing papers"
+    ]
+  }
+}
