@@ -25,7 +25,7 @@ Claude가 네이버 검색 상위노출(C-Rank, D.I.A.+)에 맞춰 글을 작성
 | `naver-image-shotlist` | 글의 이미지 자리마다 직접촬영 구도 + 무료출처 검색어 + 캡션/alt | "샷리스트", "무슨 사진 찍어" |
 
 > ⚠️ `naver-seo-geo-blog`는 **STEP3 사례 제안 → 컨펌 이후에만 본문을 씁니다.** 메인키워드 + 레퍼런스 이미지를 주고 시작하세요.
-> 💡 권장 흐름: `content-calendar`(기획) → `naver-seo-geo-blog`(작성) → `park-voice-linter` + `policy-fund-factcheck`(검수) → `naver-image-shotlist`(이미지) → 네이버에 수동 발행.
+> 💡 권장 흐름: `content-calendar`(기획) → `naver-seo-geo-blog`(작성) → `park-voice-linter` + `policy-fund-factcheck`(검수) → `naver-image-shotlist`(이미지) → 네이버에 수동 발행 → **`posts/_publish-log.md` 에 발행일·URL 기록.**
 
 ## 🚀 사용법
 
@@ -50,6 +50,18 @@ Claude에게 그냥 자연어로 요청하면 적절한 스킬이 자동 실행�
 - 직접 촬영 이미지 10장+ / 동영상 15초+ 가산점
 - 협찬·체험단 표기 필수, 과장·의료 단정 표현 금지
 
+## 📒 두 개의 원장
+
+`posts/` 아래 두 기록 파일이 서로 다른 질문에 답한다. **둘 다 매번 갱신한다.**
+
+| 파일 | 답하는 질문 | 언제 적나 |
+|------|-----------|----------|
+| `_variation-log.md` | 이 글을 **어떻게** 썼나 (골격 S·어조 V·제목패턴 T·도입훅) | 글을 **쓴** 직후 |
+| `_publish-log.md` | 이 글이 **올라갔나** (상태·발행일·URL) | 글을 **발행한** 직후 |
+
+전자는 자기복제를 막고, 후자는 중복 발행과 누락을 막는다.
+`_publish-log.md` 는 현재 전 행이 `미확인` 이다 — 과거 36편의 실제 발행 여부를 아직 대조하지 않았다.
+
 ## 📁 폴더 구조
 
 ```
@@ -64,6 +76,7 @@ Claude에게 그냥 자연어로 요청하면 적절한 스킬이 자동 실행�
   └─ naver-image-shotlist/   # ★ 이미지 구도·출처·캡션 설계
 posts/                       # 작성한 글 (YYYY-MM-DD-주제.md)
   ├─ _variation-log.md       # 골격·어조·제목패턴 변주 기록 (자기복제 차단용)
+  ├─ _publish-log.md         # 발행 원장 — 실제 네이버 발행 여부·발행일·URL
   └─ _archive/               # 구 포맷·중복 등 보류된 글
 ```
 
