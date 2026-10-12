@@ -278,5 +278,255 @@
     "orig": "1920x1280",
     "folder": "0921-7",
     "slot": "사진8"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/31892097/pexels-photo-31892097.jpeg",
+    "page": "https://www.pexels.com/photo/31892097/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1006-1",
+    "slot": "사진1",
+    "file": "원본/사례-만두가게.jpg",
+    "checked": "2026-10-06 md5·다운로드 로그 대조"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/7651557/pexels-photo-7651557.jpeg",
+    "page": "https://www.pexels.com/photo/7651557/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1006-2",
+    "slot": "사진1",
+    "file": "원본/사례-상담.jpg",
+    "checked": "2026-10-06 md5·다운로드 로그 대조"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/31735995/pexels-photo-31735995.jpeg",
+    "page": "https://www.pexels.com/photo/31735995/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1006-3",
+    "slot": "사진1",
+    "file": "원본/사례-빈식당.jpg",
+    "checked": "2026-10-06 md5·다운로드 로그 대조"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/2101154/pexels-photo-2101154.jpeg",
+    "page": "https://www.pexels.com/photo/2101154/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1006-5",
+    "slot": "사진1",
+    "file": "원본/사례-청년카페.jpg",
+    "checked": "2026-10-06 md5·다운로드 로그 대조"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/6964056/pexels-photo-6964056.jpeg",
+    "page": "https://www.pexels.com/photo/6964056/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1006-6",
+    "slot": "사진1",
+    "file": "원본/사례-고지서.jpg",
+    "checked": "2026-10-06 md5·다운로드 로그 대조"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/32357220/pexels-photo-32357220.jpeg",
+    "page": "https://www.pexels.com/photo/32357220/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1006-7",
+    "slot": "사진1",
+    "file": "원본/사례-공방.jpg",
+    "checked": "2026-10-06 md5·다운로드 로그 대조"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/7479032/pexels-photo-7479032.jpeg",
+    "page": "https://www.pexels.com/photo/7479032/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1006-7",
+    "slot": "사진6",
+    "file": "원본/사례-작업장.jpg",
+    "checked": "2026-10-06 md5·다운로드 로그 대조"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/6368842/pexels-photo-6368842.jpeg",
+    "page": "https://www.pexels.com/photo/6368842/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1012-1",
+    "file": "원본/정물-파란노트계산기.jpg",
+    "checked": "2026-10-12 headless 검색·미리보기 시트로 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/7111550/pexels-photo-7111550.jpeg",
+    "page": "https://www.pexels.com/photo/7111550/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1012-1",
+    "file": "원본/정물-흰계산기메모.jpg",
+    "checked": "2026-10-12 headless 검색·미리보기 시트로 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/6919802/pexels-photo-6919802.jpeg",
+    "page": "https://www.pexels.com/photo/6919802/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1012-2",
+    "file": "원본/반찬-진열세로.jpg",
+    "checked": "2026-10-12 headless 검색·미리보기 시트로 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/31858145/pexels-photo-31858145.jpeg",
+    "page": "https://www.pexels.com/photo/31858145/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1012-2",
+    "file": "원본/반찬-주방.jpg",
+    "checked": "2026-10-12 headless 검색·미리보기 시트로 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/35933888/pexels-photo-35933888.jpeg",
+    "page": "https://www.pexels.com/photo/35933888/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1012-2",
+    "file": "원본/반찬-포장.jpg",
+    "checked": "2026-10-12 headless 검색·미리보기 시트로 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/31150502/pexels-photo-31150502.jpeg",
+    "page": "https://www.pexels.com/photo/31150502/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1012-2",
+    "file": "원본/반찬-다시진열.jpg",
+    "checked": "2026-10-12 headless 검색·미리보기 시트로 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/17342282/pexels-photo-17342282.jpeg",
+    "page": "https://www.pexels.com/photo/17342282/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1012-3",
+    "file": "원본/갈림길.jpg",
+    "checked": "2026-10-12 headless 검색·미리보기 시트로 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/5974407/pexels-photo-5974407.jpeg",
+    "page": "https://www.pexels.com/photo/5974407/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1012-3",
+    "file": "원본/공방-대패손.jpg",
+    "checked": "2026-10-12 headless 검색·미리보기 시트로 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/5410116/pexels-photo-5410116.jpeg",
+    "page": "https://www.pexels.com/photo/5410116/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1012-3",
+    "file": "원본/꽃집-포장손.jpg",
+    "checked": "2026-10-12 headless 검색·미리보기 시트로 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/27128551/pexels-photo-27128551.jpeg",
+    "page": "https://www.pexels.com/photo/27128551/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1012-4",
+    "file": "원본/운전석-계기판.jpg",
+    "checked": "2026-10-12 headless 검색·미리보기 시트로 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/30027297/pexels-photo-30027297.jpeg",
+    "page": "https://www.pexels.com/photo/30027297/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1012-4",
+    "file": "원본/식당-빈홀.jpg",
+    "checked": "2026-10-12 headless 검색·미리보기 시트로 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/16098002/pexels-photo-16098002.jpeg",
+    "page": "https://www.pexels.com/photo/16098002/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1012-5",
+    "file": "원본/정물-노트북계산기.jpg",
+    "checked": "2026-10-12 headless 검색·미리보기 시트로 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/8276240/pexels-photo-8276240.jpeg",
+    "page": "https://www.pexels.com/photo/8276240/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1012-5",
+    "file": "원본/정물-검정노트계산기.jpg",
+    "checked": "2026-10-12 headless 검색·미리보기 시트로 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/17671007/pexels-photo-17671007.jpeg",
+    "page": "https://www.pexels.com/photo/17671007/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1012-6",
+    "file": "원본/국수-면뽑는손.jpg",
+    "checked": "2026-10-12 headless 검색·미리보기 시트로 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/9763365/pexels-photo-9763365.jpeg",
+    "page": "https://www.pexels.com/photo/9763365/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1012-6",
+    "file": "원본/폐업-셔터골목.jpg",
+    "checked": "2026-10-12 headless 검색·미리보기 시트로 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/6711715/pexels-photo-6711715.jpeg",
+    "page": "https://www.pexels.com/photo/6711715/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1012-6",
+    "file": "원본/국수-면사리.jpg",
+    "checked": "2026-10-12 headless 검색·미리보기 시트로 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/5338144/pexels-photo-5338144.jpeg",
+    "page": "https://www.pexels.com/photo/5338144/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1012-6",
+    "file": "원본/국수-한그릇.jpg",
+    "checked": "2026-10-12 headless 검색·미리보기 시트로 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/1366594/pexels-photo-1366594.jpeg",
+    "page": "https://www.pexels.com/photo/1366594/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1012-7",
+    "file": "원본/마트-진열대.jpg",
+    "checked": "2026-10-12 headless 검색·미리보기 시트로 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/7750124/pexels-photo-7750124.jpeg",
+    "page": "https://www.pexels.com/photo/7750124/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1012-7",
+    "file": "원본/미용실-홀.jpg",
+    "checked": "2026-10-12 headless 검색·미리보기 시트로 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/12323217/pexels-photo-12323217.jpeg",
+    "page": "https://www.pexels.com/photo/12323217/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1012-7",
+    "file": "원본/카드배경-쇼핑카트.jpg",
+    "checked": "2026-10-12 반전 카드 B 배경"
   }
 ]

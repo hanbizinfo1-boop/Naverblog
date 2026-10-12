@@ -227,13 +227,13 @@ def render(text, photos):
                 parts.append(f'<p style="{pst}">' + "<br>".join(inline(l) for l in ls[1:]) + "</p>")
         else:
             parts.append(f'<p style="{pst}">' + "<br>".join(inline(l) for l in ls) + "</p>")
-    # 문단 사이 여백은 «빈 문단»으로 — 네이버는 margin 을 버리고 빈 문단만 남긴다. 큰 덩어리 앞뒤는 두 줄.
+    # 문단 사이 여백은 «빈 문단»으로 — 네이버는 margin 을 버리고 빈 문단만 남긴다.
+    # 운영자 교정(2026-10-06): 소제목·사진 앞뒤도 두 줄이 아니라 한 줄. 모든 덩어리 사이 빈 문단 1개.
     gap = f'<p style="{P_C}">&nbsp;</p>'
-    big = lambda x: x.startswith(("<blockquote", "<table", "<hr")) or "사진" in x[:200] and "자리 —" in x
     out = []
     for i, p in enumerate(parts):
         if i:
-            out.append(gap * (2 if big(p) or big(parts[i - 1]) else 1))
+            out.append(gap)
         out.append(p)
     return meta, "\n".join(out)
 
@@ -284,20 +284,38 @@ def make_photos(folder, photos):
         scale = max(im.size) / 4000 * (4000 / max(im.size)) ** 0.5
         layer = Image.new("RGBA", im.size, (0, 0, 0, 0))
         d = ImageDraw.Draw(layer)
+        # marks: 노란 형광펜 띠 [x0, y0, x1, y1] (원본 좌표) — 구조틀 2 «자료집»
+        for x0, y0, x1, y1 in ph.get("marks", []):
+            d.rectangle((x0 - cx, y0 - cy, x1 - cx, y1 - cy), fill=(255, 221, 0, 95))
+        # boxes: 표·공고 캡처에서 «이 줄»을 테두리로 감싼다 [x0, y0, x1, y1] (원본 좌표)
+        # box_color: 기본 빨강. 구조틀 4 «갈림길» 은 A 청록 #13806e · B 보라 #5b3fa0
+        bc = ph.get("box_color", "#e62832").lstrip("#")
+        bcol = tuple(int(bc[i:i + 2], 16) for i in (0, 2, 4)) + (255,)
+        for x0, y0, x1, y1 in ph.get("boxes", []):
+            d.rectangle((x0 - cx, y0 - cy, x1 - cx, y1 - cy), outline=bcol, width=max(4, int(8 * scale)))
+        # badges: 남색 번호 원 {"n": "1", "at": [x, y]} (원본 좌표, 원의 중심) — 구조틀 2
+        for bg in ph.get("badges", []):
+            r = int(bg.get("r", 34))
+            x, y = bg["at"][0] - cx, bg["at"][1] - cy
+            d.ellipse((x - r, y - r, x + r, y + r), fill=(21, 50, 138, 255))
+            bf = ImageFont.truetype(font_path, int(r * 1.25)) if font_path else ImageFont.load_default()
+            bb = d.textbbox((0, 0), str(bg["n"]), font=bf)
+            d.text((x - (bb[2] - bb[0]) / 2 - bb[0], y - (bb[3] - bb[1]) / 2 - bb[1]), str(bg["n"]), font=bf, fill=(255, 255, 255, 255))
         for lb in ph.get("labels", []):
-            f = ImageFont.truetype(font_path, int(120 * scale)) if font_path else ImageFont.load_default()
+            k = lb.get("size", 1)  # 작은 캡처에선 0.4~0.6 — 기본 글자가 사진 폭의 절반을 덮는다
+            f = ImageFont.truetype(font_path, int(120 * scale * k)) if font_path else ImageFont.load_default()
             at = (lb["at"][0] - cx, lb["at"][1] - cy)
             to = (lb["to"][0] - cx, lb["to"][1] - cy) if lb.get("to") else None
             bx = d.textbbox((0, 0), lb["text"], font=f)
-            w, h, pad = bx[2] - bx[0], bx[3] - bx[1], int(40 * scale)
+            w, h, pad = bx[2] - bx[0], bx[3] - bx[1], int(40 * scale * k)
             box = (at[0] - w / 2 - pad, at[1] - h / 2 - pad, at[0] + w / 2 + pad, at[1] + h / 2 + pad)
-            red, lw = (230, 40, 50, 255), max(6, int(14 * scale))
+            red, lw = (230, 40, 50, 255), max(4, int(14 * scale * k))
             if to:
                 sx, sy = min(max(to[0], box[0]), box[2]), min(max(to[1], box[1]), box[3])
                 d.line([(sx, sy), to], fill=red, width=lw)
                 ang = math.atan2(to[1] - sy, to[0] - sx)
                 for a in (2.6, -2.6):
-                    d.line([to, (to[0] + 60 * scale * math.cos(ang + a), to[1] + 60 * scale * math.sin(ang + a))], fill=red, width=lw)
+                    d.line([to, (to[0] + 60 * scale * k * math.cos(ang + a), to[1] + 60 * scale * k * math.sin(ang + a))], fill=red, width=lw)
             d.rectangle(box, fill=(255, 255, 255, 190), outline=red, width=lw)
             d.text((at[0] - w / 2 - bx[0], at[1] - h / 2 - bx[1]), lb["text"], font=f, fill=(40, 40, 40, 255))
         im = Image.alpha_composite(im.convert("RGBA"), layer).convert("RGB")
@@ -365,7 +383,7 @@ def main():
     meta, article = render(text, photos)
     make_photos(folder, photos)
     out = os.path.join(folder, "복사용.html")
-    open(out, "w", encoding="utf-8").write(page(meta, article, photos))
+    open(out, "w", encoding="utf-8", newline="\n").write(page(meta, article, photos))
     print(f"→ 만듦: {out} (사진 {len(photos)}장, ⚠ {len(warn)})")
     return 0
 

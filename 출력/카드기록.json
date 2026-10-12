@@ -1,0 +1,58 @@
+[
+ {
+  "folder": "1012-1",
+  "type": "요약",
+  "style": "B",
+  "layout": 3,
+  "theme": "금리",
+  "out": "카드-4분기금리.png"
+ },
+ {
+  "folder": "1012-2",
+  "type": "타임라인",
+  "style": "A",
+  "layout": 2,
+  "theme": "가게",
+  "out": "카드-타임라인.png"
+ },
+ {
+  "folder": "1012-3",
+  "type": "비교",
+  "style": "C",
+  "layout": 2,
+  "theme": "제조",
+  "out": "카드-비교.png"
+ },
+ {
+  "folder": "1012-4",
+  "type": "반전",
+  "style": "C",
+  "layout": 3,
+  "theme": "금리",
+  "out": "카드-반전.png"
+ },
+ {
+  "folder": "1012-5",
+  "type": "요약",
+  "style": "C",
+  "layout": 2,
+  "theme": "복지",
+  "out": "카드-장애인기업자금.png"
+ },
+ {
+  "folder": "1012-6",
+  "type": "타임라인",
+  "style": "B",
+  "layout": 3,
+  "theme": "재기",
+  "out": "카드-타임라인.png"
+ },
+ {
+  "folder": "1012-7",
+  "type": "반전",
+  "style": "B",
+  "layout": 2,
+  "theme": "주의",
+  "out": "카드-반전.png"
+ }
+]
