@@ -528,5 +528,543 @@
     "folder": "1012-7",
     "file": "원본/카드배경-쇼핑카트.jpg",
     "checked": "2026-10-12 반전 카드 B 배경"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/8976192/pexels-photo-8976192.jpeg",
+    "page": "https://www.pexels.com/photo/8976192/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1019-1",
+    "file": "원본/갈림길.jpg",
+    "checked": "2026-10-19 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/14363849/pexels-photo-14363849.jpeg",
+    "page": "https://www.pexels.com/photo/14363849/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1019-1",
+    "file": "원본/예시-빵집.jpg",
+    "checked": "2026-10-19 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/12387143/pexels-photo-12387143.jpeg",
+    "page": "https://www.pexels.com/photo/12387143/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1019-1",
+    "file": "원본/예시-건어물.jpg",
+    "checked": "2026-10-19 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/38668374/pexels-photo-38668374.jpeg",
+    "page": "https://www.pexels.com/photo/38668374/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1019-2",
+    "file": "원본/현장-분식집.jpg",
+    "checked": "2026-10-19 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/24917269/pexels-photo-24917269.jpeg",
+    "page": "https://www.pexels.com/photo/24917269/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1019-2",
+    "file": "원본/손-김밥.jpg",
+    "checked": "2026-10-19 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/6077915/pexels-photo-6077915.jpeg",
+    "page": "https://www.pexels.com/photo/6077915/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1019-2",
+    "file": "원본/서류-손.jpg",
+    "checked": "2026-10-19 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/4551298/pexels-photo-4551298.jpeg",
+    "page": "https://www.pexels.com/photo/4551298/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1019-2",
+    "file": "원본/현장-분식-다른컷.jpg",
+    "checked": "2026-10-19 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/36402445/pexels-photo-36402445.jpeg",
+    "page": "https://www.pexels.com/photo/36402445/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1019-2",
+    "file": "원본/카드배경-분식.jpg",
+    "checked": "2026-10-19 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/7657376/pexels-photo-7657376.jpeg",
+    "page": "https://www.pexels.com/photo/7657376/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1019-3",
+    "file": "원본/정물-서류펜.jpg",
+    "checked": "2026-10-19 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/5562087/pexels-photo-5562087.jpeg",
+    "page": "https://www.pexels.com/photo/5562087/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1019-3",
+    "file": "원본/정물-돋보기.jpg",
+    "checked": "2026-10-19 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/17530598/pexels-photo-17530598.jpeg",
+    "page": "https://www.pexels.com/photo/17530598/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1019-4",
+    "file": "원본/비유-우천중단.jpg",
+    "checked": "2026-10-19 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/19525284/pexels-photo-19525284.jpeg",
+    "page": "https://www.pexels.com/photo/19525284/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1019-4",
+    "file": "원본/카드배경-빗길.jpg",
+    "checked": "2026-10-19 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/7111558/pexels-photo-7111558.jpeg",
+    "page": "https://www.pexels.com/photo/7111558/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1019-5",
+    "file": "원본/정물-계산기장부.jpg",
+    "checked": "2026-10-19 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/30361320/pexels-photo-30361320.jpeg",
+    "page": "https://www.pexels.com/photo/30361320/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1019-6",
+    "file": "원본/현장-철물점.jpg",
+    "checked": "2026-10-19 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/9606744/pexels-photo-9606744.jpeg",
+    "page": "https://www.pexels.com/photo/9606744/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1019-6",
+    "file": "원본/손-공구.jpg",
+    "checked": "2026-10-19 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/7680692/pexels-photo-7680692.jpeg",
+    "page": "https://www.pexels.com/photo/7680692/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1019-6",
+    "file": "원본/서류-계산기손.jpg",
+    "checked": "2026-10-19 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/35066503/pexels-photo-35066503.jpeg",
+    "page": "https://www.pexels.com/photo/35066503/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1019-6",
+    "file": "원본/현장-철물점-다른컷.jpg",
+    "checked": "2026-10-19 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/5583107/pexels-photo-5583107.jpeg",
+    "page": "https://www.pexels.com/photo/5583107/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1019-6",
+    "file": "원본/카드배경-철물.jpg",
+    "checked": "2026-10-19 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/35566533/pexels-photo-35566533.jpeg",
+    "page": "https://www.pexels.com/photo/35566533/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1019-7",
+    "file": "원본/비유-두사다리.jpg",
+    "checked": "2026-10-19 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/6588623/pexels-photo-6588623.jpeg",
+    "page": "https://www.pexels.com/photo/6588623/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1019-7",
+    "file": "원본/예시-소스병.jpg",
+    "checked": "2026-10-19 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/9594502/pexels-photo-9594502.jpeg",
+    "page": "https://www.pexels.com/photo/9594502/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1019-7",
+    "file": "원본/예시-의류포장.jpg",
+    "checked": "2026-10-19 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/7030070/pexels-photo-7030070.jpeg",
+    "page": "https://www.pexels.com/photo/7030070/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1019-4",
+    "file": "원본/현장-빨래방.jpg",
+    "checked": "2026-10-19 직접 확인 — 3639870(태국어 안내판·LG 로고)을 대신함"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/5420899/pexels-photo-5420899.jpeg",
+    "page": "https://www.pexels.com/photo/5420899/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1019-5",
+    "file": "원본/정물-빈종이펜.jpg",
+    "checked": "2026-10-19 직접 확인 — 7439132(영문 요일·일본어 펜)를 대신함"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/28896831/pexels-photo-28896831.jpeg",
+    "page": "https://www.pexels.com/photo/28896831/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-1",
+    "file": "원본/비유-졸업식.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/33873627/pexels-photo-33873627.jpeg",
+    "page": "https://www.pexels.com/photo/33873627/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-1",
+    "file": "원본/현장-고깃집.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인 — 메뉴 광고판(가격·상호) 블러"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/18426528/pexels-photo-18426528.jpeg",
+    "page": "https://www.pexels.com/photo/18426528/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-1",
+    "file": "원본/카드배경-고기.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인 — 카드 배경 후보 (반전 C라 미사용)"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/5239814/pexels-photo-5239814.jpeg",
+    "page": "https://www.pexels.com/photo/5239814/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-2",
+    "file": "원본/정물-카드단말기.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/17679555/pexels-photo-17679555.jpeg",
+    "page": "https://www.pexels.com/photo/17679555/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-2",
+    "file": "원본/정물-정수기.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/4218546/pexels-photo-4218546.jpeg",
+    "page": "https://www.pexels.com/photo/4218546/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-2",
+    "file": "원본/정물-공유기.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/7734574/pexels-photo-7734574.jpeg",
+    "page": "https://www.pexels.com/photo/7734574/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-2",
+    "file": "원본/정물-보험서류.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인 — 영문 서식 제목 부분 잘라 냄"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/6373084/pexels-photo-6373084.jpeg",
+    "page": "https://www.pexels.com/photo/6373084/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-2",
+    "file": "원본/정물-휴대폰.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/8099481/pexels-photo-8099481.jpeg",
+    "page": "https://www.pexels.com/photo/8099481/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-2",
+    "file": "원본/정물-계산기.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/5900135/pexels-photo-5900135.jpeg",
+    "page": "https://www.pexels.com/photo/5900135/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-2",
+    "file": "원본/정물-영수증.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/14427760/pexels-photo-14427760.jpeg",
+    "page": "https://www.pexels.com/photo/14427760/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-3",
+    "file": "원본/현장-정육점.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/35435758/pexels-photo-35435758.jpeg",
+    "page": "https://www.pexels.com/photo/35435758/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-3",
+    "file": "원본/현장-손질.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/10168171/pexels-photo-10168171.jpeg",
+    "page": "https://www.pexels.com/photo/10168171/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-3",
+    "file": "원본/비유-마라톤.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인 — 미사용: 1026-3 마라톤 비유 — v7 즉시 탈락 소재라 미사용"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/6636332/pexels-photo-6636332.jpeg",
+    "page": "https://www.pexels.com/photo/6636332/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-3",
+    "file": "원본/현장-서류.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/32598664/pexels-photo-32598664.jpeg",
+    "page": "https://www.pexels.com/photo/32598664/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-4",
+    "file": "원본/정물-우편함.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인 — 미사용: 1026-4 국세청 캡처로 바꿔 미사용"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/16251530/pexels-photo-16251530.jpeg",
+    "page": "https://www.pexels.com/photo/16251530/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-4",
+    "file": "원본/비유-예약석.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/6135674/pexels-photo-6135674.jpeg",
+    "page": "https://www.pexels.com/photo/6135674/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-4",
+    "file": "원본/현장-네일숍.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/8297018/pexels-photo-8297018.jpeg",
+    "page": "https://www.pexels.com/photo/8297018/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-4",
+    "file": "원본/정물-장부계산.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/3226865/pexels-photo-3226865.jpeg",
+    "page": "https://www.pexels.com/photo/3226865/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-4",
+    "file": "원본/정물-11월달력.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인 — 미사용: 1026-4 미사용"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/7658352/pexels-photo-7658352.jpeg",
+    "page": "https://www.pexels.com/photo/7658352/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-4",
+    "file": "원본/정물-서류검토.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인 — 미사용: 1026-4 미사용"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/9544250/pexels-photo-9544250.jpeg",
+    "page": "https://www.pexels.com/photo/9544250/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-4",
+    "file": "원본/카드배경-예약.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인 — 반전 카드 배경"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/20500734/pexels-photo-20500734.jpeg",
+    "page": "https://www.pexels.com/photo/20500734/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-5",
+    "file": "원본/비유-주유.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/37162555/pexels-photo-37162555.jpeg",
+    "page": "https://www.pexels.com/photo/37162555/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-5",
+    "file": "원본/예시-가구공방.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인 — 기계 상표 블러"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/8478400/pexels-photo-8478400.jpeg",
+    "page": "https://www.pexels.com/photo/8478400/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-5",
+    "file": "원본/예시-문구점.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/9052479/pexels-photo-9052479.jpeg",
+    "page": "https://www.pexels.com/photo/9052479/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-5",
+    "file": "원본/정물-계산.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/16446206/pexels-photo-16446206.jpeg",
+    "page": "https://www.pexels.com/photo/16446206/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-6",
+    "file": "원본/현장-국수.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/13815723/pexels-photo-13815723.jpeg",
+    "page": "https://www.pexels.com/photo/13815723/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-6",
+    "file": "원본/현장-면손질.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/7054419/pexels-photo-7054419.jpeg",
+    "page": "https://www.pexels.com/photo/7054419/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-6",
+    "file": "원본/현장-계산.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/16373270/pexels-photo-16373270.jpeg",
+    "page": "https://www.pexels.com/photo/16373270/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-6",
+    "file": "원본/비유-시소.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/18469420/pexels-photo-18469420.jpeg",
+    "page": "https://www.pexels.com/photo/18469420/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-6",
+    "file": "원본/현장-국수그릇.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/7490494/pexels-photo-7490494.jpeg",
+    "page": "https://www.pexels.com/photo/7490494/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-6",
+    "file": "원본/현장-국수위.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/18467145/pexels-photo-18467145.jpeg",
+    "page": "https://www.pexels.com/photo/18467145/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-6",
+    "file": "원본/카드배경-국수.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인 — 타임라인 카드 배경"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/4724371/pexels-photo-4724371.jpeg",
+    "page": "https://www.pexels.com/photo/4724371/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-7",
+    "file": "원본/정물-휴대폰.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/942647/pexels-photo-942647.jpeg",
+    "page": "https://www.pexels.com/photo/942647/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-7",
+    "file": "원본/정물-메모.jpg",
+    "checked": "2026-10-26 headless 검색·미리보기로 직접 확인 — 받았으나 본문 미사용"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://images.pexels.com/photos/4246106/pexels-photo-4246106.jpeg",
+    "page": "https://www.pexels.com/photo/4246106/",
+    "license": "Pexels License (상업 이용 가능, 출처 표기 불필요)",
+    "folder": "1026-3",
+    "file": "원본/비유-이사.jpg",
+    "checked": "2026-10-26 직접 확인 — 얼굴 없음, 손·상자만"
+  },
+  {
+    "provider": "nts",
+    "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7673&mi=2236",
+    "license": "국세청 공공 안내 페이지 (headless 크롬 캡처)",
+    "folder": "1026-4",
+    "file": "assets/공고캡처/2026-10-26/국세청/제도.png",
+    "checked": "2026-10-26"
+  },
+  {
+    "provider": "nts",
+    "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2238&cntntsId=7675",
+    "license": "국세청 공공 안내 페이지 (headless 크롬 캡처)",
+    "folder": "1026-4",
+    "file": "assets/공고캡처/2026-10-26/국세청/대상자.png · 납부기한.png",
+    "checked": "2026-10-26 — 2026 추계액 신고·납부기한 2026.11.30.(월) 확인"
   }
 ]

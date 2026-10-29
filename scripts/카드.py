@@ -431,7 +431,12 @@ def card_요약(c, base, T, style, L):
 
         def hero_block(y, big=False, boxed=False):
             size = (104 if style == "C" else 150) if big else (78 if style == "C" else 108)
-            f = font("NotoSansKR-VF.ttf", size, weight=900) if style == "C" else font("Pretendard-Bold.otf", size) if style == "A" else font("GmarketSansBold.otf", size)
+            pick = lambda s: font("NotoSansKR-VF.ttf", s, weight=900) if style == "C" else font("Pretendard-Bold.otf", s) if style == "A" else font("GmarketSansBold.otf", s)
+            f = pick(size)
+            room = W - 2 * M - (40 if boxed else 0)   # 숫자가 길면 상자 안에 들어올 때까지 줄인다
+            while size > 48 and d.textlength(c["big"], font=f) > room:
+                size -= 4
+                f = pick(size)
             col = {"A": T["ink"], "B": "#ffffff", "C": T["ink"]}[style]
             if boxed:
                 bh = size + 120
@@ -720,7 +725,8 @@ def card_타임라인(c, base, T, style, L):
             x0, wtxt = 110, W - 220
         for i, (when, what) in enumerate(steps):
             last = i == n - 1
-            col_w = 230 if L != 2 else 0
+            # 라벨 칸 = 가장 긴 라벨 + 여백 (최소 230). 라벨이 길어도 내용과 겹치지 않는다
+            col_w = max(230, 40 + max(d.textlength(s[0], font=wf) for s in steps)) if L != 2 else 0
             lines = wrap(d, what, bf, wtxt - col_w)
             h = max(110, (0 if L != 2 else 50) + 44 + line_h(bf, 1.5) * len(lines))
             if last:
@@ -828,13 +834,18 @@ def card_비교(c, base, T, style, L):
                 centered(d, ys[1] - 30, "VS", font("GmarketSansBold.otf", 52), "#222222", 2 * W - 316)
                 end = y + 90
             else:
-                d.rectangle((W // 2, 0, W, H), fill=PURPLE)
+                keyw = 300 if L == 3 else 0
+                mid = keyw + (W - keyw) / 2       # 색 경계 = 두 칸의 가운데 (항목 띠가 있으면 그만큼 오른쪽)
+                d.rectangle((int(mid), 0, W, H), fill=PURPLE)
                 d.rectangle((0, 0, W, 130), fill="#ffffff")
                 centered(d, 36, c["title"], font("GmarketSansBold.otf", 50), "#222222", W)
-                keyw = 300 if L == 3 else 0
                 if L == 3:
                     d.rectangle((0, 130, keyw, H), fill="#ffffff")
-                mid = keyw + (W - keyw) / 2
+                room = (W - keyw) / 2 - 110 - 30  # 이름이 길면 자기 칸 안에 들어올 때까지 줄인다
+                ns = 56
+                while ns > 32 and max(d.textlength(c["a"], font=nf), d.textlength(c["b"], font=nf)) > room:
+                    ns -= 2
+                    nf = font("GmarketSansBold.otf", ns)
                 aw = d.textlength(c["a"], font=nf)
                 d.text((mid - 110 - aw, 196), c["a"], font=nf, fill="#ffffff")
                 d.text((mid + 110, 196), c["b"], font=nf, fill="#ffffff")

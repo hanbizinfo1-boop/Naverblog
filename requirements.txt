@@ -1,0 +1,5 @@
+# 박관장 네이버 블로그 도구 (Python 3.11)
+Pillow
+pymupdf
+playwright        # Pexels 검색·웹 캡처 (설치된 Chrome 을 씀, 브라우저 내려받기 불필요)
+opencv-python     # 발행전점검 얼굴 감지 (YuNet 모델은 scripts/models/ 에 있음)

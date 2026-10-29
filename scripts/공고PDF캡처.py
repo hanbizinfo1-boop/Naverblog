@@ -32,7 +32,7 @@ ROOT = Path(__file__).resolve().parent.parent
 
 
 def find(page, text, after=None):
-    hits = page.search_for(text)
+    hits = sorted(page.search_for(text), key=lambda r: (round(r.y0), r.x0))   # 위에서부터 읽는 순서
     if after is not None:
         hits = [h for h in hits if h.y0 >= after - 1]
     if not hits:
